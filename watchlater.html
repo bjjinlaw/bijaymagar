@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link rel="stylesheet" href="staticfiles/home.css">
+    <link rel="stylesheet" href="staticfiles/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="left-section">
+            <i class="fa-solid fa-bars"></i>
+            <a href="#"><img src="staticfiles/youtubelogo.png"></a>
+        </div>
+
+
+        <div class="mid-section">
+            <form action="">
+                <input type="text" placeholder="Search" />
+                <button>
+                    <i class="fa-solid fa-search"></i>
+                </button>
+            </form>
+            <i class="fa fa-microphone"></i>
+        </div>
+
+
+
+        <div class="right-section">
+            <a href="#"><i class="fa-solid fa-video"></i></a>
+
+            <div id="notification">
+                <span class="notification-number">
+
+                    <a href="#"><i class="fa-solid fa-bell"></i></a>
+                </span>
+            </div>
+            <a href="#">
+                <img class="profile-user" src="staticfiles/profile.jpg">
+            </a>
+
+        </div>
+
+    </header>
+
+
+
+
+    <aside>
+        <nav>
+            <a href="home.html" class="nav-link active">
+                <i class="fa-solid fa-home"></i>
+                <span>Home</span>
+            </a>
+
+            <a href="shorts.html" class="nav-link active">
+                <i class="fa-solid fa-camera"></i>
+                <span>Shorts</span>
+            </a>
+
+            <a href="subscription.html" class="nav-link active">
+                <i class="fa-brands fa-square-youtube"></i>
+                <span>Subscription</span>
+            </a>
+
+            <div class="line-wrapper">
+                <div class="line"></div>
+            </div>
+
+            <a href="library.html" class="nav-link active">
+                <i class=" fa-solid fa-book"></i>
+                <span>Library</span>
+            </a>
+            <a href="history.html" class="nav-link active">
+                <i class=" fa-solid fa-clock-rotate-left"> </i>
+                <span>History</span>
+            </a>
+            <a href="yourvideos.html" class="nav-link active">
+                <i class="fa-brands fa-youtube"></i>
+                <span>Your videos</span>
+            </a>
+            <a href="Watchlater.html" class="nav-link current active">
+                <i class="fa-solid fa-clock"></i>
+                <span>Watch Later</span>
+            </a>
+
+            <a href="likedvideos.html" class="nav-link active">
+                <i class="fa-regular fa-thumbs-up"></i>
+                <span>Liked videos</span>
+            </a>
+
+            <div class="line-wrapper1">
+                <div class="line1"></div>
+            </div>
+
+            <p class="subscript">Subscriptions</p>
+
+            <a href="#" class="nav-link active">
+                <img class="subscription-picture" src="staticfiles/channel.jpg">
+                <span>Bright Studio</span>
+            </a>
+
+            <a href="#" class="nav-link active">
+                <img class="subscription-picture" src="staticfiles/PUBG.jpg">
+                <span>Pubg Mobile</span>
+            </a>
+
+            <a href="#" class="nav-link active">
+                <img class="subscription-picture" src="staticfiles/Science.jpg">
+                <span>Science Fiction</span>
+            </a>
+            <a href="#" class="nav-link active">
+                <img class="subscription-picture" src="staticfiles/thumbnail.webp">
+                <span>Technoloy Gyan</span>
+            </a>
+            <a href="#" class="nav-link active">
+                <img class="subscription-picture" src="staticfiles/BB.jpg">
+                <span>BB ki vines</span>
+            </a>
+        </nav>
+    </aside>
+
+
+    <!--
+    <div class=" video-grid ">
+        <div class="video-preview ">
+            <div class="thumbnail-row ">
+                <img class="thumbnail " src="staticfiles/hello.webp ">
+            </div>
+            <div class="video-info-grid ">
+                <div class="channel-picture ">
+                    <img class="profile-picture " src="staticfiles/channel.jpg ">
+                </div>
+                <div class="video-info ">
+                    <p class="video-title ">Fifteen Amazing Shortcuts You Aren't Using</p>
+                    <p class="video-author ">BRIGHT SIDE</p>
+                    <p class="video-description ">26M views &#183; 4 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview ">
+            <div class="thumbnail-row ">
+                <img class="thumbnail " src="staticfiles/thumbnail2.webp ">
+            </div>
+            <div class="video-info-grid ">
+                <div class="channel-picture ">
+                    <img class="profile-picture " src="staticfiles/channel2.jpg ">
+                </div>
+                <div class="video-info ">
+                    <p class="video-title ">Learn CSS Animations In 20 Minutes - For Beginners</p>
+                    <p class="video-author ">Slaying The Dragon</p>
+                    <p class="video-description ">320K views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview ">
+            <div class="thumbnail-row ">
+                <img class="thumbnail " src="staticfiles/marvel.webp ">
+            </div>
+            <div class="video-info-grid ">
+                <div class="channel-picture ">
+                    <img class="profile-picture " src="staticfiles/channel.jpg ">
+                </div>
+                <div class="video-info ">
+                    <p class="video-title ">Fifteen Amazing Shortcuts You Aren't Using</p>
+                    <p class="video-author ">BRIGHT SIDE</p>
+                    <p class="video-description ">26M views &#183; 4 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview ">
+            <div class="thumbnail-row ">
+                <img class="thumbnail " src="staticfiles/thumbnail2.webp ">
+            </div>
+            <div class="video-info-grid ">
+                <div class="channel-picture ">
+                    <img class="profile-picture " src="staticfiles/channel2.jpg ">
+                </div>
+                <div class="video-info ">
+                    <p class="video-title ">Learn CSS Animations In 20 Minutes - For Beginners</p>
+                    <p class="video-author ">Slaying The Dragon</p>
+                    <p class="video-description ">320K views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview ">
+            <div class="thumbnail-row ">
+                <img class="thumbnail " src="staticfiles/tony.webp ">
+            </div>
+            <div class="video-info-grid ">
+                <div class="channel-picture ">
+                    <img class="profile-picture " src="staticfiles/channel.jpg ">
+                </div>
+                <div class="video-info ">
+                    <p class="video-title ">Fifteen Amazing Shortcuts You Aren't Using</p>
+                    <p class="video-author ">BRIGHT SIDE</p>
+                    <p class="video-description ">26M views &#183; 4 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview ">
+            <div class="thumbnail-row ">
+                <img class="thumbnail " src="staticfiles/thumbnail2.webp ">
+            </div>
+            <div class="video-info-grid ">
+                <div class="channel-picture ">
+                    <img class="profile-picture " src="staticfiles/channel2.jpg ">
+                </div>
+                <div class="video-info ">
+                    <p class="video-title ">Learn CSS Animations In 20 Minutes - For Beginners</p>
+                    <p class="video-author ">Slaying The Dragon</p>
+                    <p class="video-description ">320K views &#183; 6 months ago</p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</body>
+
+</html>
